@@ -1,0 +1,77 @@
+[ 2017-01-07T10:54:07+08:00 ] 127.0.0.1 /index.php/Home/user/cart.html
+ERR: XMLÊ†áÁ≠æËØ≠Ê≥ïÈîôËØØ : name="cart_info" item="vo" text-align:center
+
+[ 2017-01-07T16:06:21+08:00 ] 127.0.0.1 /index.php/Home/user/addcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0040s ]
+SQL: select * from sw_user where user_name='ÈöêÂßìÂüãÂêç' and pwd='000000' [ RunTime:0.0010s ]
+SQL: select * from sw_brand where brand_id=(select goods_brand_id from sw_goods where goods_id=39) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_cart` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\thinkphp\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1185 Ë°å.
+NOTIC: [8] Undefined index: auto D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\thinkphp\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1128 Ë°å.
+SQL: INSERT INTO `sw_cart` (`c_num`,`c_goods_id`,`c_member_id`) VALUES ('10','39','3') [ RunTime:0.0070s ]
+
+[ 2017-01-07T17:53:11+08:00 ] 127.0.0.1 /index.php/Home/user/cart.html
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2017-01-07T21:55:15+08:00 ] 127.0.0.1 /index.php/Home/user/addcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0060s ]
+SQL: select * from sw_user where user_name='ÈöêÂßìÂüãÂêç' and pwd='000000' [ RunTime:0.0020s ]
+SQL: select * from sw_brand where brand_id=(select goods_brand_id from sw_goods where goods_id=35) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sw_cart` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\thinkphp\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1185 Ë°å.
+NOTIC: [8] Undefined index: auto D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\thinkphp\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1128 Ë°å.
+SQL: INSERT INTO `sw_cart` (`c_num`,`c_goods_id`,`c_member_id`) VALUES ('1','35','3') [ RunTime:0.0030s ]
+
+[ 2017-01-07T21:55:32+08:00 ] 127.0.0.1 /index.php/Home/user/addcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0070s ]
+SQL: select * from sw_user where user_name='ÈöêÂßìÂüãÂêç' and pwd='000000' [ RunTime:0.0010s ]
+SQL: select * from sw_brand where brand_id=(select goods_brand_id from sw_goods where goods_id=35) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sw_cart` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\thinkphp\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1185 Ë°å.
+NOTIC: [8] Undefined index: auto D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\thinkphp\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1128 Ë°å.
+SQL: INSERT INTO `sw_cart` (`c_num`,`c_goods_id`,`c_member_id`) VALUES ('1','35','3') [ RunTime:0.0030s ]
+
+[ 2017-01-07T21:55:33+08:00 ] 127.0.0.1 /index.php/Home/user/addcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0030s ]
+SQL: select * from sw_user where user_name='ÈöêÂßìÂüãÂêç' and pwd='000000' [ RunTime:0.0000s ]
+SQL: select * from sw_brand where brand_id=(select goods_brand_id from sw_goods where goods_id=35) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_cart` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\thinkphp\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1185 Ë°å.
+NOTIC: [8] Undefined index: auto D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\thinkphp\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1128 Ë°å.
+SQL: INSERT INTO `sw_cart` (`c_num`,`c_goods_id`,`c_member_id`) VALUES ('1','35','3') [ RunTime:0.0020s ]
+
+[ 2017-01-07T21:55:36+08:00 ] 127.0.0.1 /index.php/Home/user/addcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.0050s ]
+SQL: select * from sw_user where user_name='ÈöêÂßìÂüãÂêç' and pwd='000000' [ RunTime:0.0010s ]
+SQL: select * from sw_brand where brand_id=(select goods_brand_id from sw_goods where goods_id=35) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sw_cart` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\thinkphp\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1185 Ë°å.
+NOTIC: [8] Undefined index: auto D:\Bitnami\wampstack-5.6.19-0\apache2\htdocs\thinkphp\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1128 Ë°å.
+SQL: INSERT INTO `sw_cart` (`c_num`,`c_goods_id`,`c_member_id`) VALUES ('1','35','3') [ RunTime:0.0010s ]
+

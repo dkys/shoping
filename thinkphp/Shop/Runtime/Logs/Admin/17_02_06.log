@@ -1,0 +1,18 @@
+[ 2017-02-06T15:18:49+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkcode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sw_admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sw_admin` WHERE `admin_user` = '345' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-02-06T15:19:16+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkcode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sw_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sw_admin` WHERE `admin_user` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
